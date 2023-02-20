@@ -53,7 +53,7 @@ def crack_snusbase(term, values):
                 hash_value = value
                 hash_response = requests.get(
                     f'https://beta.snusbase.com/v1/hash/{hash_value}', headers={
-                        "authorization": ''
+                        "authorization": 'sbYGVcYxGEuBQt2P51meLO9TpmvMhr'
                     })
 
                 try:
